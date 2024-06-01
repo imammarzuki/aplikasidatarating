@@ -84,8 +84,8 @@
 </select>
 </td></tr>
 <tr><th colspan="3">Perilaku dan Karakteristik</th></tr>
-<tr><td>10</td><td>Frekuensi Berwisata Setahun Terakhir</td><td>
-<select name="teman">
+<tr><td>9</td><td>Frekuensi Berwisata Setahun Terakhir</td><td>
+<select name="frekuensi">
 <option></option>
 <option>1 kali</option>
 <option>2 kali</option>
@@ -94,15 +94,17 @@
 </select>
 </td></tr>
 <tr><td>10</td><td>Jenis tempat wisata yang Sering Dikunjungi</td><td>
-<select name="teman">
+<select name="jenis">
 <option></option>
-<option>1 kali</option>
-<option>2 kali</option>
-<option>3 kali</option>
-<option>lebih dari 3 kali</option>
+<option>Wisata Alam</option>
+<option>Wisata Kuliner</option>
+<option>Wisata Belanja</option>
+<option>Wisata Agriwisata</option>
+<option>Wisata Budaya</option>
+<option>Wisata Religi</option>
 </select>
 </td></tr>
-<tr><td>9</td><td>Alasan Berwisata</td><td>
+<tr><td>11</td><td>Alasan Berwisata</td><td>
 <select name="alasan">
 <option></option>
 <option>Ingin relaksasi</option>
@@ -117,7 +119,7 @@
 <option>Lainnya</option>
 </select>
 </td></tr>
-<tr><td>10</td><td>Teman Perjalanan</td><td>
+<tr><td>12</td><td>Teman Perjalanan</td><td>
 <select name="teman">
 <option></option>
 <option>Sendiri Saja</option>
@@ -126,7 +128,7 @@
 <option>Teman</option>
 </select>
 </td></tr>
-<tr><td>11</td><td>Kendaraan yang digunakan</td><td>
+<tr><td>13</td><td>Kendaraan yang digunakan</td><td>
 <select name="kendaraan">
 <option></option>
 <option>Sepeda Motor</option>
@@ -135,7 +137,7 @@
 <option>Kendaraan Lainnya</option>
 </select>
 </td></tr>
-<tr><td>11</td><td>Menyediakan Anggaran untuk Berwisata</td><td>
+<tr><td>14</td><td>Menyediakan Anggaran untuk Berwisata</td><td>
 <select name="anggaran">
 <option></option>
 <option>Ya</option>
@@ -145,14 +147,118 @@
 <table>
 <table border="1" cellspacing="0" cellpadding="10">
 <tr><th colspan="3"> Penentuan Rating Destinasi Wisata (Unknown Rating Approach)</th></tr>
-<tr><td width="10">11</td><td width="150">Jatim Park 1?</td><td width="800">
+<tr><td width="10">11</td><td width="150">Jatim Park 1</td><td width="800">
 <input type="radio" name="rating" value="1"/>Sangat Tidak Menarik
 <input type="radio" name="rating" value="2"/>Tidak Menarik
 <input type="radio" name="rating" value="3"/>Netral
 <input type="radio" name="rating" value="4"/>Menarik
 <input type="radio" name="rating" value="5"/>Sangat Menarik
 <input type="radio" name="rating" value="0"/>Tidak Tahu
-<td></td></tr>
+</td></tr>
+<tr><td width="10">12</td><td width="150">Jatim Park 2</td><td width="800">
+<input type="radio" name="rating" value="1"/>Sangat Tidak Menarik
+<input type="radio" name="rating" value="2"/>Tidak Menarik
+<input type="radio" name="rating" value="3"/>Netral
+<input type="radio" name="rating" value="4"/>Menarik
+<input type="radio" name="rating" value="5"/>Sangat Menarik
+<input type="radio" name="rating" value="0"/>Tidak Tahu
+</td></tr>
+<tr><td width="10">13</td><td width="150">Jatim Park 3?</td><td width="800">
+<input type="radio" name="rating" value="1"/>Sangat Tidak Menarik
+<input type="radio" name="rating" value="2"/>Tidak Menarik
+<input type="radio" name="rating" value="3"/>Netral
+<input type="radio" name="rating" value="4"/>Menarik
+<input type="radio" name="rating" value="5"/>Sangat Menarik
+<input type="radio" name="rating" value="0"/>Tidak Tahu
+</td></tr>
+<tr><td width="10">14</td><td width="150">Museum Angkut</td><td width="800">
+<input type="radio" name="rating" value="1"/>Sangat Tidak Menarik
+<input type="radio" name="rating" value="2"/>Tidak Menarik
+<input type="radio" name="rating" value="3"/>Netral
+<input type="radio" name="rating" value="4"/>Menarik
+<input type="radio" name="rating" value="5"/>Sangat Menarik
+<input type="radio" name="rating" value="0"/>Tidak Tahu
+</td></tr>
+<tr><td width="10">15</td><td width="150">Selecta</td><td width="800">
+<input type="radio" name="rating" value="1"/>Sangat Tidak Menarik
+<input type="radio" name="rating" value="2"/>Tidak Menarik
+<input type="radio" name="rating" value="3"/>Netral
+<input type="radio" name="rating" value="4"/>Menarik
+<input type="radio" name="rating" value="5"/>Sangat Menarik
+<input type="radio" name="rating" value="0"/>Tidak Tahu
+</td></tr>
+<tr><td width="10">16</td><td width="150">BNS</td><td width="800">
+<input type="radio" name="rating" value="1"/>Sangat Tidak Menarik
+<input type="radio" name="rating" value="2"/>Tidak Menarik
+<input type="radio" name="rating" value="3"/>Netral
+<input type="radio" name="rating" value="4"/>Menarik
+<input type="radio" name="rating" value="5"/>Sangat Menarik
+<input type="radio" name="rating" value="0"/>Tidak Tahu
+</td></tr>
+<tr><td width="10">17</td><td width="150">Eko Green Park</td><td width="800">
+<input type="radio" name="rating" value="1"/>Sangat Tidak Menarik
+<input type="radio" name="rating" value="2"/>Tidak Menarik
+<input type="radio" name="rating" value="3"/>Netral
+<input type="radio" name="rating" value="4"/>Menarik
+<input type="radio" name="rating" value="5"/>Sangat Menarik
+<input type="radio" name="rating" value="0"/>Tidak Tahu
+</td></tr>
+<tr><td width="10">18</td><td width="150">Alun-alun Kota Batu</td><td width="800">
+<input type="radio" name="rating" value="1"/>Sangat Tidak Menarik
+<input type="radio" name="rating" value="2"/>Tidak Menarik
+<input type="radio" name="rating" value="3"/>Netral
+<input type="radio" name="rating" value="4"/>Menarik
+<input type="radio" name="rating" value="5"/>Sangat Menarik
+<input type="radio" name="rating" value="0"/>Tidak Tahu
+</td></tr>
+<tr><td width="10">19</td><td width="150">Kusuma Agro</td><td width="800">
+<input type="radio" name="rating" value="1"/>Sangat Tidak Menarik
+<input type="radio" name="rating" value="2"/>Tidak Menarik
+<input type="radio" name="rating" value="3"/>Netral
+<input type="radio" name="rating" value="4"/>Menarik
+<input type="radio" name="rating" value="5"/>Sangat Menarik
+<input type="radio" name="rating" value="0"/>Tidak Tahu
+</td></tr>
+<tr><td width="10">20</td><td width="150">Cangar</td><td width="800">
+<input type="radio" name="rating" value="1"/>Sangat Tidak Menarik
+<input type="radio" name="rating" value="2"/>Tidak Menarik
+<input type="radio" name="rating" value="3"/>Netral
+<input type="radio" name="rating" value="4"/>Menarik
+<input type="radio" name="rating" value="5"/>Sangat Menarik
+<input type="radio" name="rating" value="0"/>Tidak Tahu
+</td></tr>
+<tr><td width="10">11</td><td width="150">Coban Talun</td><td width="800">
+<input type="radio" name="rating" value="1"/>Sangat Tidak Menarik
+<input type="radio" name="rating" value="2"/>Tidak Menarik
+<input type="radio" name="rating" value="3"/>Netral
+<input type="radio" name="rating" value="4"/>Menarik
+<input type="radio" name="rating" value="5"/>Sangat Menarik
+<input type="radio" name="rating" value="0"/>Tidak Tahu
+</td></tr>
+<tr><td width="10">11</td><td width="150">Pemandian Songgoriti</td><td width="800">
+<input type="radio" name="rating" value="1"/>Sangat Tidak Menarik
+<input type="radio" name="rating" value="2"/>Tidak Menarik
+<input type="radio" name="rating" value="3"/>Netral
+<input type="radio" name="rating" value="4"/>Menarik
+<input type="radio" name="rating" value="5"/>Sangat Menarik
+<input type="radio" name="rating" value="0"/>Tidak Tahu
+</td></tr>
+<tr><td width="10">11</td><td width="150">Coban Rais</td><td width="800">
+<input type="radio" name="rating" value="1"/>Sangat Tidak Menarik
+<input type="radio" name="rating" value="2"/>Tidak Menarik
+<input type="radio" name="rating" value="3"/>Netral
+<input type="radio" name="rating" value="4"/>Menarik
+<input type="radio" name="rating" value="5"/>Sangat Menarik
+<input type="radio" name="rating" value="0"/>Tidak Tahu
+</td></tr>
+<tr><td width="10">11</td><td width="150">Predator Fun Park</td><td width="800">
+<input type="radio" name="rating" value="1"/>Sangat Tidak Menarik
+<input type="radio" name="rating" value="2"/>Tidak Menarik
+<input type="radio" name="rating" value="3"/>Netral
+<input type="radio" name="rating" value="4"/>Menarik
+<input type="radio" name="rating" value="5"/>Sangat Menarik
+<input type="radio" name="rating" value="0"/>Tidak Tahu
+</td></tr>
 </table>
 <br>
 <br>
